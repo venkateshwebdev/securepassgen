@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+*{
+    font-weight: 500;
+}
+.container{
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.selectionPage{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+
+}
+.mainHeading{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 900;
+    font-size: 120px;
+    margin-top:40px;
+}
+
+
+span{
+    font-size: 200px;
+    letter-spacing: 0.2cm;
+}
+p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    color: grey;
+}
+.button {
+    background-color: black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+.buttonDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.button:hover{
+    background-color: white;
+    border: solid 3px black;
+    color: rgb(43, 42, 42);
+    box-shadow: -10px -10px 0px black;
+}
+.sectionLayout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 150px;
+    margin-top: 70px;
+    width: 100vw;
+    height: 100vh;
+}
+.subHeadings{
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 120px;
+    font-weight: 700;
+    font-size: 75px;
+}
+.form-floating{
+    width: 400px;
+    border: solid 3px grey;
+}
+.allignLayout{
+    display: flex;
+    flex-direction: column;
+    height: 10px;
+    gap: 30px;
+}
+/* .buttonc:hover{
+    box-shadow: none;
+
+} */
+.mainlayout{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+}
+.hidden{
+    display: none;
+}
+.trybut{
+    width: 200px;
+}
+.remarklayout{
+    font-size: 20px;
+    color: black;
+}
+.buttonDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}

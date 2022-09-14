@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecurePasswordGenerator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Nabla&family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--////////////////////////mainPage/////////////////////////// -->
+    <div class="container">
+        <div class="selectionPage">
+            <!-- <h1 class="mainHeading"><span>S</span>ecure<span>P</span>assword<span>G</span>enerator</h1> -->
+            <h1 class="mainHeading">Secure Password Generator</h1>
+            <div class="buttonDiv">
+            <a href="#checker"><button class="button">Check Password Strength</button></a>
+            <a href="#Generator"><button class="button">Create Strong Password</button></a>
+        </div>
+
+
+
+
+
+        <!-- /////////////////checkSection//////////////////////// -->
+        <div id="checker" class="passwordStregthCheck sectionLayout">
+            <h3 class="subHeadings">Password Strength Checker</h3>
+            <div class="allignCheck allignLayout" id="check">
+                <div class="form-floating">
+                    <input type="text" class="form-control checkInput" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                  </div>
+                  <button class="button buttonc">Check</button>
+            </div>
+            <!-- ///////////////////////////hiddenCHeck//////////// -->
+            <div class="remarkscheck hidden mainlayout" id="rc">
+                <p class="remarkText remarklayout"></p>
+                <div class="buttonDiv">
+                    <button class="button trybutgen">Try Another?</button>
+                    <a href="#Generator"><button class="button">Create Strong Password</button></a>
+                </div>
+
+            </div>
+            
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- /////////////////////////////GeneratorSectino////////////////// -->
+        <div id="Generator" class="strongPassGen sectionLayout">
+            <h3 class="subHeadings">Strong Password Generator</h3>
+            <div class="allignGenerate allignLayout" id="gen">
+                <div class="form-floating">
+                    <input type="text" class="form-control generateInput" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Keyword</label>
+                  </div>
+                  <button class="button buttong">Generate</button>
+            </div>
+            <!-- //////////////////////////////Generatorhidden/////////////////// -->
+            <div class="remarksgen hidden mainlayout" id="rg">
+                <p class="remarkTextgen remarklayout"></p>
+                <div class="buttonDiv">
+                    <button class="button trybut">Try Another?</button>
+                    <a href="#checker"><button class="button">Check Password Strength</button></a>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
