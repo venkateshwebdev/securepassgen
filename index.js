@@ -107,7 +107,26 @@ document.querySelector(".buttong").addEventListener("click",()=>{
 
 
 
+/////////////////////////color chnage////////////
+let flag = true
+document.getElementById("colorbut").addEventListener("click",()=>{
+    if (flag===true){
+        document.querySelector('*').style.filter = "invert()"
+        flag = false
+    }
+    else{
+        document.querySelector('*').style.filter = "invert(0)"
+        flag = true
 
+    }
+    
+
+    // document.querySelector(".mainHeading").style.filter="invert()";
+    // document.querySelector(".mainHeading").style.filter="invert(0)";
+
+    
+
+})
 
 
 
